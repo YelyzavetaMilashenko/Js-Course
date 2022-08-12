@@ -1,0 +1,15 @@
+table {
+    margin: auto;
+    width: 70%; 
+    background: white; 
+    color: black; 
+    border: 1px solid black;
+    border-spacing: 5px;
+    padding: 10px;
+   }
+td,th,tr {border: 2px solid black;
+    padding: 10px; 
+    text-align: center;
+}
+.thead { background: lightgray ;  }
+.item:hover {background: #786b59; color: #ffe; }
