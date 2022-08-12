@@ -1,0 +1,47 @@
+.mainBlock {
+width: 420px;
+height: 420px;
+margin: 30px auto;
+border: 1px solid black;
+}
+
+.block {
+width: 70px;
+height: 70px;
+float: left;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.black {
+background-color: black;
+}
+
+.white {
+background-color: white;
+}
+
+.chessmanWhite {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: blue;
+
+}
+
+.chessmanBlack {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    background-color: #d1d8e2;
+}
